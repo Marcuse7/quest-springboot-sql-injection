@@ -25,7 +25,7 @@
           <li th:text="|First name: ${customer.firstName}|"></li>
           <li th:text="|Last name: ${customer.lastName}|"></li>
           <li th:text="|E-mail: ${customer.email}|"></li>
-          <li><a th:href="@{/customers/{identifier}/credit-cards/(identifier=${customer.identifier})}"><strong>Your credit cards</a></strong></li>
+          <li><a th:href="@{/customers/{identifier}/credit-cards/(identifier=${customer.identifier})}"><strong>Your credit cards</strong></a></li>
         </ul>
 
         <h2>Profile update</h2>
